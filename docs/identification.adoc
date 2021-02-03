@@ -1,3 +1,43 @@
 == Identification
 
-=== 
+=== Mimir Solutions Identification Process
+
+Mimir wishes to adopt a user identification process that allows for identiity verifiation of anonymous parties.
+This is possible because the only relevant factor is maintaining a continuiity od identity across system access and contributions.
+A continuity of identity can be achieved by linking verifiable control of encryption keys.
+While a destributed identity management standard is still being defined, the following process can be used in the mean time.
+
+Mimir collaborators must sign all commits with a PGP key that ba linked to other encryption keys.
+Linking PGP keys to other keys can be done through https://keybase.io.
+Directions for generating a PGP with Keybase and using it to sign git commits can be found in this repository.
+
+https://github.com/Mimir-Solutions/keybase-gpg-github
+
+These instruction will need to be adapted to account boin completed on Windows, MacOS, and Ubuntu and CentOS based Linux.
+
+Mimir also recommends using Gitkraken to simplify using PGP with Gitkraken and using the sumodules common in Mimir projects.
+
+https://www.gitkraken.com/
+
+Free usage should surfice for public contributions.
+Private repositories require a subscription.
+
+With a PGP key registered with Keybase and GitHub, contributors must now register an email address that can be linked to that key through Keybase.
+This can be done with an Ethereum wallet like Metamask and the Ethereum Name Service (ENS).
+
+Contributors must select an existing or create a new Ethereum wallet. This is the address to which all compensation due will be sent for the forseeable future.
+User must use that wallet to connect to https://ethmail.cc to claim an email address tied to their wallet.
+Then users must use that email address, following the format of <wallet address>@ethmail.cc on the Mimir porject management server https://projects.mimirsolutions.tech.
+Notify your project lead or organization admin once this is completed to approve your registration.
+Please provide the user name your selected when registering.
+Please set the "Real name" field to your user name if you wish to remain anonymous.
+
+Then users must register a name at https://ens.domains/.
+Pleas register your user name if available.
+
+Set the "url" Text Record to the URL for you keybase profile.
+Set the "email" Text Record to your Ethmail address.
+
+You also register an Unstoppable Domain, https://unstoppabledomains.com/, and use your Unstoppable Email address to register.
+
+If you would like to use an alternate email client to the Ethmail web interface you can find directions here, https://auth.cryptoverse.cc/keys/mykeys

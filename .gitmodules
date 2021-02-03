@@ -1,0 +1,3 @@
+[submodule "keybase-gpg-github"]
+	path = keybase-gpg-github
+	url = git@github.com:Mimir-Solutions/keybase-gpg-github.git

@@ -1,12 +1,5 @@
-# onboarding
+= Miimir Solutions Onboarding Process
 
-doc's info links:
+include::docs/identification.adoc[]
 
-Ethereum Name Service (WNS)
-1)https://docs.ens.domains/
-ETHMail
-2)https://ethmail.cc/howto.html
 
-3)https://web.ethmail.cc/
-Email password key maker
-4)https://auth.cryptoverse.cc/keys/mykeys
